@@ -1,0 +1,157 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/masterFrameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/table_layout"
+    android:clickable="true"
+    android:focusable="true"
+    android:foreground="?attr/selectableItemBackground"
+    android:longClickable="true"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp">
+
+    <TableLayout
+        android:id="@+id/master_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/page5_itemID"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="false"
+                android:contextClickable="false"
+                android:linksClickable="false"
+                android:longClickable="false"
+                android:paddingStart="12dp"
+                android:paddingTop="4dp"
+                android:text="$itemID"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/page5_itemName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="false"
+                android:contextClickable="false"
+                android:linksClickable="false"
+                android:longClickable="false"
+                android:paddingStart="12dp"
+                android:paddingTop="4dp"
+                android:text="$itemName"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/page5_price"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.7"
+                android:clickable="false"
+                android:contextClickable="false"
+                android:linksClickable="false"
+                android:longClickable="false"
+                android:paddingTop="4dp"
+                android:paddingEnd="0dp"
+                android:text="$price"
+                android:textAlignment="textEnd"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/page5_currency"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:clickable="false"
+                android:contextClickable="false"
+                android:linksClickable="false"
+                android:longClickable="false"
+                android:paddingTop="4dp"
+                android:paddingEnd="12dp"
+                android:text="$curr"
+                android:textAlignment="textEnd"
+                android:textSize="14sp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/page5_type"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="false"
+                android:contextClickable="false"
+                android:linksClickable="false"
+                android:longClickable="false"
+                android:paddingStart="12dp"
+                android:paddingTop="4dp"
+                android:text="$type" />
+
+            <TextView
+                android:id="@+id/page5_measuringUnit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="false"
+                android:contextClickable="false"
+                android:linksClickable="false"
+                android:longClickable="false"
+                android:paddingTop="4dp"
+                android:paddingEnd="12dp"
+                android:text="$Measuring Unit"
+                android:textAlignment="textEnd" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/page5_standardAmt"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="false"
+                android:contextClickable="false"
+                android:linksClickable="false"
+                android:longClickable="false"
+                android:paddingStart="12dp"
+                android:paddingTop="4dp"
+                android:paddingEnd="12dp"
+                android:text="$standardAmnt" />
+
+            <TextView
+                android:id="@+id/page5_unit"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:clickable="false"
+                android:contextClickable="false"
+                android:linksClickable="false"
+                android:longClickable="false"
+                android:paddingTop="4dp"
+                android:paddingEnd="12dp"
+                android:text="$Unit"
+                android:textAlignment="textEnd"
+                android:textSize="14sp" />
+        </TableRow>
+
+    </TableLayout>
+</FrameLayout>
