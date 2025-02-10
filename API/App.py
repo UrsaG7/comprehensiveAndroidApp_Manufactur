@@ -12,8 +12,8 @@ app.config['SECRET_KEY'] = '$YOUR_KEY'
 
 def get_db_connection():
     conn_str = (
-        r'DRIVER={ODBC Driver 17 for SQL Server};'
-        r'SERVER=DESKTOP-OOE808M;'
+        r'DRIVER={ODBC Driver 18 for SQL Server};'
+        r'SERVER=$serverName;'
         r'DATABASE=user_auth;'
         r'UID=$USERNAME;' 
         r'PWD=$PASS;' 
